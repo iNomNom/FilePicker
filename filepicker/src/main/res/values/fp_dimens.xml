@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_extra_small">@dimen/_7ssp</dimen>
+    <dimen name="text_small">@dimen/_9ssp</dimen>
+    <dimen name="text_medium">@dimen/_11ssp</dimen>
+    <dimen name="text_large">@dimen/_12ssp</dimen>
+    <dimen name="text_heading_small">@dimen/_15ssp</dimen>
+    <dimen name="text_heading">@dimen/_17ssp</dimen>
+    <dimen name="text_heading_large">@dimen/_22ssp</dimen>
+
+    <dimen name="extra_small_corner_radius">@dimen/_5sdp</dimen>
+    <dimen name="small_corner_radius">@dimen/_7sdp</dimen>
+    <dimen name="medium_corner_radius">@dimen/_14sdp</dimen>
+    <dimen name="large_corner_radius">@dimen/_18sdp</dimen>
+    <dimen name="extra_large_corner_radius">@dimen/_55sdp</dimen>
+
+    <dimen name="tab_height">@dimen/_45sdp</dimen>
+
+</resources>

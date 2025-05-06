@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="categories">#5D646B</color>
+    <color name="green">#23AA26</color>
+    <color name="red">#FF3B2F</color>
+
+    <!--  Accent  -->
+    <color name="accent_100">#FFF5D8</color>
+    <color name="accent_200">#FFEFBE</color>
+    <color name="accent_300">#FFE07D</color>
+    <color name="accent_400">#FFD95D</color>
+    <color name="accent_500">#FFD13D</color>
+    <color name="accent_600">#554614</color>
+
+    <!--  Neutral  -->
+    <color name="neutral_10">#FFFFFF</color>
+    <color name="neutral_20">#F5F5F5</color>
+    <color name="neutral_30">#EDEDED</color>
+    <color name="neutral_40">#E0E0E0</color>
+    <color name="neutral_50">#C2C2C2</color>
+    <color name="neutral_60">#9E9E9E</color>
+    <color name="neutral_70">#757575</color>
+    <color name="neutral_80">#616161</color>
+    <color name="neutral_90">#424242</color>
+    <color name="neutral_100">#0A0A0A</color>
+    <color name="neutral_max">#FF000000</color>
+
+
+    <!--  Primary  -->
+    <color name="border">#8698A8</color>
+    <color name="primary_50">#F9F5FF</color>
+    <color name="primary_200">#E9D7FE</color>
+    <color name="primary_700">#6941C6</color>
+    <color name="focused">#0E3152</color>
+    <color name="hover">#0C2944</color>
+    <color name="main">#0E3152</color>
+    <color name="pressed">#092137</color>
+
+    <!--  Accent mapping for accent buttons  -->
+    <color name="border_accent">@color/accent_100</color>
+    <color name="focused_accent">@color/accent_600</color>
+    <color name="hover_accent">@color/accent_300</color>
+    <color name="main_accent">@color/accent_500</color>
+    <color name="pressed_accent">@color/accent_400</color>
+
+
+    <!--  Text  -->
+    <color name="text_default">@color/main_dark</color>
+    <color name="forgot_pass_title">#111827</color>
+    <color name="text_otp_description">#333333</color>
+    <color name="text_light">#64748B</color>
+    <color name="text_hint">#CBD5E1</color>
+    <color name="text_border_stroke">@color/text_hint</color>
+    <color name="text_drawable_tint">#94A3B8</color>
+    <color name="text_forgot_pass">#9CA3AF</color>
+    <color name="card_unchecked_stroke">#E5E7EB</color>
+    <color name="dark_gray_text">#534D59</color>
+
+    <!--  Misc  -->
+    <color name="unchecked_radio_button">#E2E8F0</color>
+    <color name="bottom_nav_selected">#020D16</color>
+    <color name="bottom_nav_unselected">#A6A6A6</color>
+    <color name="main_dark">#0F172A</color>
+    <color name="surface">#CED6DB</color>
+    <color name="surface_light">#E9E9E9</color>
+    <color name="surface_very_light">#F3F3F3</color>
+    <color name="tab_background">#F3F4F7</color>
+    <color name="otp_layout_background">#F6F8FA</color>
+    <color name="divider">#F9F9F9</color>
+    <color name="divider_stroke">#F1F5F9</color>
+    <color name="welcome_text">#DDDDDD</color>
+    <color name="order_summary_light_text">#6B7280</color>
+    <color name="plan_text">#1F2937</color>
+    <color name="message_field_hint">#596B80</color>
+    <color name="picker_item">#D2D2D2</color>
+    <color name="notherns_light_blue">#7fc7c1</color>
+    <color name="mint_cream">#f6fffa</color>
+
+    <!--  Opacity  -->
+    <color name="neutral_10_30_percent">#4DFFFFFF</color>
+    <color name="neutral_10_70_percent">#B3FFFFFF</color>
+    <color name="neutral_max_12_percent">#1F000000</color>
+    <color name="neutral_max_40_percent">#66000000</color>
+    <color name="neutral_max_30_percent">#4D000000</color>
+    <color name="main_40_percent">#660E3152</color>
+    <color name="light_black">#0A0A0A</color>
+</resources>

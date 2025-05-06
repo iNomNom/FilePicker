@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fp_camera">Camera</string>
+    <string name="fp_cancel">Cancel</string>
+    <string name="fp_photos_only">Photos</string>
+    <string name="fp_videos">Videos</string>
+    <string name="fp_photos_and_videos">Photos &amp; Videos</string>
+
+    <string name="fp_documents_only">Documents</string>
+    <string name="fp_files_and_documents">Files &amp; Documents</string>
+    <string name="fp_permission_denied_x">Permission denied: %1$s</string>
+
+    <string name="fp_permission_settings_message">
+        The app needs the following permissions to function properly: %1$s. Please grant them in the settings.
+    </string>
+    <string name="fp_permission_settings_button">Settings</string>
+    <string name="fp_files_only">Files</string>
+    <string name="fp_failed_to_process_any_of_the_selected_files">Failed to process any of the selected files.</string>
+</resources>

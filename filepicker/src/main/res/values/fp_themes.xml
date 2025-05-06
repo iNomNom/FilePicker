@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Theme.FilePicker.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Theme.FilePicker.BottomSheet.Transparent" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Theme.FilePicker.BottomSheetStyle.Transparent</item>
+    </style>
+
+    <style name="Theme.FilePicker.BottomSheetStyle.Transparent" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+</resources>

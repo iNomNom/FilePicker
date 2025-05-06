@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Root path -->
+    <root-path
+        name="root"
+        path="." />
+
+    <!-- Cache paths -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- External paths -->
+    <external-path
+        name="external"
+        path="." />
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- Files paths -->
+    <files-path
+        name="files"
+        path="." />
+    <files-path
+        name="my_images"
+        path="myfile/" />
+
+    <!-- External cache paths -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+
+    <!-- External files paths -->
+    <external-files-path
+        name="images"
+        path="Pictures" />
+    <external-files-path
+        name="camera_image"
+        path="Pictures/" />
+    <external-files-path
+        name="my_images_external"
+        path="my_images" />
+
+    <external-path
+        name="download"
+        path="Download/" />
+
+</paths>

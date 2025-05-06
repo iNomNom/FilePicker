@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@android:color/transparent"
+    android:elevation="@dimen/_5sdp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_20sdp"
+    android:translationZ="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:background="@drawable/fp_stroke_rounded_small_1"
+        android:backgroundTint="?attr/colorSurfaceVariant"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/fp_ic_camera"
+            android:drawablePadding="@dimen/_20sdp"
+            android:gravity="center_vertical"
+            android:text="@string/fp_camera"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_heading_small" />
+
+        <View
+            android:id="@+id/divider_camera_photo"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/documents"
+            android:background="?attr/colorOutline" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/photos"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/fp_ic_photos"
+            android:drawablePadding="@dimen/_20sdp"
+            android:gravity="center_vertical"
+            android:text="@string/fp_photos_only"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_heading_small" />
+
+        <View
+            android:id="@+id/divider_photo_document"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/documents"
+            android:background="?attr/colorOutline" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/documents"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/fp_document_text"
+            android:drawablePadding="@dimen/_20sdp"
+            android:gravity="center_vertical"
+            android:text="@string/fp_documents_only"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_heading_small" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/fp_stroke_rounded_small_1"
+        android:backgroundTint="?attr/colorSurfaceVariant"
+        android:gravity="center"
+        android:text="@string/fp_cancel"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_heading_small" />
+</androidx.appcompat.widget.LinearLayoutCompat>

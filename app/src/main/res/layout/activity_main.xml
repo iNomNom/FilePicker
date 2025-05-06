@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="@dimen/_15sdp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_20sdp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:text="@string/select_a_file_pick_option"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                android:textColor="?android:textColorPrimary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_from_camera"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_from_camera"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/fp_ic_camera"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_from_gallery"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_from_gallery"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/fp_ic_photos"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_from_files"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_from_files"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/fp_document_text"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_single_image"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_single_image"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/fp_ic_photos"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_single_image_compressed"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_single_image_compressed"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_compressed"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_multiple_images"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_multiple_images_limit_3"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_images"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_single_video"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_single_video"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_video"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_multiple_media"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_multiple_media_limit_5"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_muti_media"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_single_pdf"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_single_pdf"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_pdf"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_multiple_docs"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_multiple_docs_limit_2"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/fp_document_text"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_any_single_file"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_any_single_file"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_file"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_custom"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/pick_custom_limit_4"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_custom_file"
+                app:iconPadding="@dimen/_10sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_and_test_helpers"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/test_helper_functions"
+                android:textAlignment="viewStart"
+                app:cornerRadius="@dimen/_5sdp"
+                app:icon="@drawable/ic_test"
+                app:iconPadding="@dimen/_10sdp" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_extension_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="?attr/colorSurfaceContainer"
+                android:padding="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/success_no_files_selected"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/_10ssp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_result_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:text="@string/success_no_files_selected"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="?android:textColorPrimary"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_selected_files"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_selected_file"
+                tools:visibility="visible" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
